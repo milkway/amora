@@ -39,6 +39,7 @@ survey_limpo %>%
   coord_flip() + ylab("Total de Ocorrências") + xlab("Gênero") +
   labs(fill = "Gênero")
 
+
   
 tabela  = count(survey_limpo,  Q2)  
   
